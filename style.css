@@ -1,0 +1,59 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    position: fixed; /* Fixa o cabeçalho no topo da janela de visualização */
+    top: 0; /* Alinha o cabeçalho ao topo */
+    left: 0;
+    width: 100%;
+    background-color: #c5c1c1; /* Cor de fundo do cabeçalho */
+    color: #ffffff; /* Cor do texto no cabeçalho */
+    padding: 20px; /* Espaçamento interno do cabeçalho */
+    text-align: center; /* Centraliza o texto */
+    border-bottom: 1px solid #000000; /* Cor e espessura da barra reta */
+}
+
+.h2 {
+    position: relative; /* Estabelece o contexto de posicionamento */
+    margin-top: 20px; /* Ajusta a margem superior conforme necessário */
+}
+
+.h2 h2 {
+    position: absolute; /* Posiciona o título de forma absoluta */
+    top: -30px; /* Ajusta a posição para acima do conteúdo */
+    left: 0;
+    margin: 0;
+}
+
+
+/* Estilos para a galeria */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha */
+    margin-top: 110px; /* Adiciona margem superior para a galeria */
+}
+
+.group {
+    margin-bottom: 110px; /* Adiciona espaçamento entre grupos de imagens */
+}
+
+.group img {
+    margin: 10px; /* Espaçamento entre as imagens */
+}
+
+/* Estilos para o rodapé */
+.footer {
+    position: fixed; /* Fixa o cabeçalho no topo da janela de visualização */
+    top: 0; /* Alinha o cabeçalho ao topo */
+    left: 0;
+    width: 100%;
+    background-color: #c5c1c1; /* Cor de fundo do cabeçalho */
+    color: #ffffff; /* Cor do texto no cabeçalho */
+    padding: 20px; /* Espaçamento interno do cabeçalho */
+    text-align: center; /* Centraliza o texto */
+    border-bottom: 1px solid #000000; /* Cor e espessura da barra reta */
+}
